@@ -3,6 +3,7 @@ import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import Locations from "@/components/locations/Locations";
 import TrackRecord from "@/components/track-record/TrackRecord";
+import Testimonials from "@/components/testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Locations />
       <TrackRecord />
+      <Testimonials />
       <Footer />
     </main>
   );
