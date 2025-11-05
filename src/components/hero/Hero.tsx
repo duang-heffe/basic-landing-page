@@ -7,7 +7,7 @@ import HeroMap from './HeroMap';
 export default function Hero() {
   return (
     // 100vh - header height
-    <section className="w-full min-h-[calc(100vh-4rem)] lg:min-h-[calc(100vh-5rem)] flex flex-col">
+    <section className="w-full min-h-[calc(100vh-4rem)] lg:min-h-[calc(100vh-5rem)] flex flex-col bg-[var(--color-blue)]">
       {/* Hero section with content and map */}
       <div className="px-4 py-6 sm:px-6 sm:py-8 lg:px-12 lg:py-8 flex-1 flex flex-col">
         <div className="flex flex-col lg:flex-row items-start gap-6 sm:gap-8 lg:gap-10 max-w-7xl mx-auto flex-1">

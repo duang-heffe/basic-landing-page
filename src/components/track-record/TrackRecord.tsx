@@ -23,7 +23,7 @@ export default function TrackRecord() {
   };
 
   return (
-    <section className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:px-12">
+    <section className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:px-12 bg-[var(--color-dark-gray)]">
       <div className="max-w-7xl mx-auto">
         <div className="relative">
           <div className="absolute -top-10 left-0 z-20">

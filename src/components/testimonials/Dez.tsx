@@ -1,6 +1,6 @@
 export default function Dez() {
   return (
-    <div className="flex flex-col gap-4 bg-black p-6">
+    <div className="flex flex-col gap-4 bg-[var(--color-black)] p-6">
       {/* Image placeholder */}
       <div className="w-full aspect-square bg-gray-800 flex items-center justify-center">
         <div className="text-white/50 text-sm">image placeholder</div>
