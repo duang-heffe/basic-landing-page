@@ -10,7 +10,7 @@ export default function HeroSponsors() {
             alt='Stripe'
             width={80}
             height={24}
-            className='h-5 sm:h-6 w-auto'
+            className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
         </div>
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
@@ -19,7 +19,7 @@ export default function HeroSponsors() {
             alt='Intercom'
             width={100}
             height={24}
-            className='h-5 sm:h-6 w-auto'
+            className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
         </div>
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
@@ -28,7 +28,7 @@ export default function HeroSponsors() {
             alt='Lovable'
             width={80}
             height={24}
-            className='h-5 sm:h-6 w-auto'
+            className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
         </div>
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
@@ -37,7 +37,7 @@ export default function HeroSponsors() {
             alt='Z'
             width={24}
             height={24}
-            className='h-5 sm:h-6 w-auto'
+            className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
         </div>
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
@@ -46,7 +46,7 @@ export default function HeroSponsors() {
             alt='Paid'
             width={60}
             height={24}
-            className='h-5 sm:h-6 w-auto'
+            className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
         </div>
       </div>
