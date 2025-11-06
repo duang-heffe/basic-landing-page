@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-export default function Header() {
+export default function HeroHeader() {
   return (
-    <header className='bg-[var(--color-black)] relative z-30'>
+    <header className='bg-[var(--color-black)] w-full'>
       <nav className='flex items-center justify-between px-2 py-2 sm:px-3 sm:py-2.5 lg:px-6 lg:py-3'>
         {/* Logo */}
         <div className='flex items-center'>

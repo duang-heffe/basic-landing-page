@@ -8,8 +8,14 @@ export default function Hero() {
   return (
     // 100vh - header height
     <section className='w-full min-h-[calc(100vh-4rem)] lg:min-h-[calc(100vh-5rem)] flex flex-col bg-[var(--color-blue)] relative overflow-hidden px-4 py-12 sm:px-6 sm:py-16 lg:px-12'>
-      {/* Background map */}
-      <HeroMap />
+      {/* Map - behind content but above background */}
+      <div className='absolute inset-0 z-0 flex items-center justify-end pointer-events-none'>
+        <div className='hidden sm:block w-full max-w-7xl mx-auto h-full'>
+          <div className='relative w-full h-full'>
+            <HeroMap />
+          </div>
+        </div>
+      </div>
       {/* Hero content */}
       <div className='relative z-10 w-full flex justify-center'>
         <div className='max-w-7xl mx-auto w-full'>
@@ -22,7 +28,6 @@ export default function Hero() {
                 <HeroStatistics />
                 <HeroSponsorCTA />
               </div>
-              {/* Right spacer removed since map is now background */}
             </div>
           </div>
 

@@ -1,4 +1,4 @@
-function HeroContent() {
+export default function HeroContent() {
   return (
     <div className='flex-1 space-y-6 sm:space-y-7 w-full'>
       {/* Headline */}
@@ -18,5 +18,3 @@ function HeroContent() {
     </div>
   )
 }
-
-export default HeroContent
