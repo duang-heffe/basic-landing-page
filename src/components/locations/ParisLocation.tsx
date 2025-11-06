@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ParisLocation() {
   return (
-    <div className='flex flex-col mt-25'>
+    <div className='flex flex-col lg:mt-25'>
       <div className="flex justify-between p-3 bg-[var(--color-blue)]">
         <div className='text-white font-serif text-2xl'>/Paris</div>
         {/* window buttons */}

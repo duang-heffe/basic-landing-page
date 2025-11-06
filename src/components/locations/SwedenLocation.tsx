@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SwedenLocation() {
   return (
-    <div className='flex flex-col mt-50'>
+    <div className='flex flex-col lg:mt-50'>
       <div className="flex justify-between p-3 bg-[var(--color-blue)]">
         <div className='text-white font-serif text-2xl'>/Sweden</div>
         {/* window buttons */}
