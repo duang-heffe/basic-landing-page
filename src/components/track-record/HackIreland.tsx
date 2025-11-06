@@ -6,7 +6,7 @@ export default function HackIreland() {
       {/* Two-column layout: text on left, image on right */}
       <div className='flex flex-col lg:flex-row gap-4 sm:gap-6'>
         {/* Left column: Text content */}
-        <div className='flex-1 lg:flex-[0.4] space-y-3 sm:space-y-4 flex flex-col justify-between'>
+        <div className='flex-1 lg:flex-[0.4] space-y-3 sm:space-y-4 flex flex-col'>
 
           <p className='text-base sm:text-lg md:text-xl lg:text-2xl'>
             Ireland&apos;s biggest student hackathon ever, supported by OpenAI, Stripe, Intercom and Tines. We had less than a 30%
@@ -17,7 +17,7 @@ export default function HackIreland() {
             <p className='text-base sm:text-sm md:text-md lg:text-lg italic pt-8'>
               Supported by:
             </p>
-            <div className='flex flex-wrap gap-8 justify-center pb-8'>
+            <div className='flex flex-wrap gap-8 justify-center'>
               <Image
                 src='/openai_logo.png' 
                 alt='OpenAI logo'

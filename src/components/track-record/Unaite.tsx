@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Unaite() {
   return (
-    <div className='p-4 sm:p-6 text-white'>
+    <div className='p-4 sm:p-6 text-white font-light'>
       {/* Two-column layout: text on left, image on right */}
       <div className='flex flex-col lg:flex-row gap-4 sm:gap-6'>
         {/* Left column: Text content */}
@@ -17,7 +17,7 @@ export default function Unaite() {
         </div>
 
         {/* Right column: Image with white border */}
-        <div className='flex-1 lg:flex-[0.4]'>
+        <div className='flex-1 lg:flex-[0.4] order-first'>
           <div className='border-2 sm:border-4 border-white'>
             <Image
               src='/unaite_team.svg'

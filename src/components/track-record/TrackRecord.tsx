@@ -26,7 +26,7 @@ export default function TrackRecord() {
               <Tabs activeTab={activeTab} onTabChange={setActiveTab} />
             </ClickSpark>
           </div>
-          <div className='bg-orange-500 border-4 border-white pt-10'>
+          <div className='bg-orange-500 border-4 border-white'>
             <div className='bg-orange-500 relative overflow-hidden'>
               {/* Pre-mount all components for smooth transitions -> we were getting some weird artifacts */}
               <div
