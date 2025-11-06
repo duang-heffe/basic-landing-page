@@ -12,7 +12,7 @@ export default function Tabs({ activeTab, onTabChange }: TabsProps) {
         <button
           key={tab}
           onClick={() => onTabChange(tab)}
-          className={`px-4 py-2 relative text-base whitespace-nowrap flex-shrink-0 max-[400px]:text-sm max-[400px]:px-3 max-[400px]:py-1.5 ${
+          className={`px-4 py-2 relative text-base font-bold whitespace-nowrap flex-shrink-0 max-[400px]:text-sm max-[400px]:px-3 max-[400px]:py-1.5 ${
             activeTab === tab ? 'bg-white text-orange-500 z-30 mb-[-5px]' : 'bg-orange-500 text-white mb-[-4px]'
           }`}
         >
