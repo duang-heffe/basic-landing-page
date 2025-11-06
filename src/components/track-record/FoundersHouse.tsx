@@ -58,13 +58,13 @@ export default function FoundersHouse() {
 
         {/* Right column: Image with white border */}
         <div className='flex-1 lg:flex-[0.6] order-first'>
-          <div className='border-2 sm:border-4 border-white'>
+          <div className='border-2 sm:border-4 border-white relative w-full' style={{ paddingTop: '80%' }}>
             <Image
               src='/foundershouse_updated.jpeg'
               alt='HackSweden event'
-              width={600}
-              height={400}
-              className='w-full h-auto object-cover'
+              fill
+              className='object-cover'
+              priority
             />
           </div>
         </div>

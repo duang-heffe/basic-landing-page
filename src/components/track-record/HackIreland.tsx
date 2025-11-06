@@ -48,18 +48,17 @@ export default function HackIreland() {
               />                                             
             </div>            
           </div>
-
         </div>
 
         {/* Right column: Image with white border */}
         <div className='flex-1 lg:flex-[0.6] order-first'>
-          <div className='border-2 sm:border-4 border-white'>
+          <div className='border-2 sm:border-4 border-white relative w-full' style={{ paddingTop: '80%' }}>
             <Image
               src='/hackireland_team_updated.jpg'
               alt='HackIreland event'
-              width={1000}
-              height={800}
-              className='w-full h-auto object-cover'
+              fill
+              className='object-cover'
+              priority
             />
           </div>
         </div>
