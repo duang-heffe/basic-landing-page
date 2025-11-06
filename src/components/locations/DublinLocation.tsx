@@ -8,10 +8,18 @@ export default function DublinLocation() {
         target="_blank"
         rel="noopener noreferrer"
         className=""
-      >      
+      > 
         <div className="flex justify-between p-3 bg-[var(--color-blue)]">
           <div className='text-white font-serif text-2xl'>/Dublin</div>
-        </div>
+          <div className="self-center">
+            <Image
+              src="/external-link-icon.svg"
+              alt="File buttons"
+              width={30}
+              height={30}
+            />
+          </div>          
+        </div>           
         <div className="relative w-full" style={{ paddingTop: '80%' }}>
           <Image
             src="/dublin_location.png"

@@ -10,24 +10,30 @@ export default function ParisLocation() {
         rel="noopener noreferrer"
         className=""
       >
-
-          <div className="flex justify-between p-3 bg-[var(--color-blue)]">
-            <div className='text-white font-serif text-2xl'>/Paris</div>
-          </div>
-          <div className="relative w-full" style={{ paddingTop: '80%' }}>
+        <div className="flex justify-between p-3 bg-[var(--color-blue)]">
+          <div className='text-white font-serif text-2xl'>/Paris</div>
+          <div className="self-center">
             <Image
-              src="/france_location.png"
-              alt="Essec Business School"
-              fill
-              className="object-cover"
-              priority
+              src="/external-link-icon.svg"
+              alt="File buttons"
+              width={30}
+              height={30}
             />
-          </div>
-          <div className="font-light bg-white p-3 text-lg">
-            <div className="font-bold">Essec Business School</div>
-            <div>300 Hackers</div>
-          </div>
-        
+          </div>          
+        </div>
+        <div className="relative w-full" style={{ paddingTop: '80%' }}>
+          <Image
+            src="/france_location.png"
+            alt="Essec Business School"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+        <div className="font-light bg-white p-3 text-lg">
+          <div className="font-bold">Essec Business School</div>
+          <div>300 Hackers</div>
+        </div>
       </a>    
     </div>
   )
