@@ -2,7 +2,7 @@ import StarBorder from './StarBorder'
 
 export default function HeroSponsorCTA() {
   return (
-    <div className='w-full max-w-md'>
+    <div className='w-full max-w-md mx-auto sm:mx-0'>
       <div className='bg-[var(--color-black)] px-4 py-4 sm:px-6 sm:py-5'>
         <p className='text-white/90 font-serif italic mb-3 text-base sm:text-lg lg:text-[18.7px]'>Interested in becoming a sponsor?</p>
         <StarBorder

@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function HeroSponsors() {
   return (
     <div className='w-full'>
-      <div className='flex flex-wrap items-center gap-4 sm:gap-6 md:gap-8'>
+      <div className='flex flex-wrap items-center justify-center sm:justify-start gap-4 sm:gap-6 md:gap-8'>
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
           <Image
             src='/stripe_logo.svg'

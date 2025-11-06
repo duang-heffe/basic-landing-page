@@ -1,6 +1,6 @@
 export default function HeroStatistics() {
   return (
-    <div className='w-full'>
+    <div className='w-full flex justify-center sm:justify-start'>
       <div className='flex flex-row gap-4 sm:gap-6 md:gap-8'>
         <div className='flex flex-col'>
           <div className='text-white text-3xl sm:text-4xl lg:text-[38.6835px] font-medium'>3</div>
