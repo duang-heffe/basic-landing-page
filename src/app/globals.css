@@ -90,6 +90,7 @@ html {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   font-family: var(--font-sans);
+  scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {

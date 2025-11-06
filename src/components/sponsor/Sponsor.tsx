@@ -4,7 +4,7 @@ import InterestedSponsor from './InterestedSponsor'
 
 export default function Sponsor() {
   return (
-    <section className='w-full bg-[var(--color-blue)]'>
+    <section id='sponsor' className='w-full bg-[var(--color-blue)]'>
       <TopBar />
       <div className='w-full px-4 py-12 sm:px-6 sm:py-16 lg:px-12'>
         <div className='max-w-7xl mx-auto'>
