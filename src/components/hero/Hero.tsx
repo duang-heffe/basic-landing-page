@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section className='w-full min-h-screen bg-[var(--color-blue)] relative overflow-hidden'>
       {/* Map Section - absolutely positioned in top right, behind everything */}
-      <div className='absolute top-0 right-0 z-0 pointer-events-none'>
+      <div className='absolute top-0 right-0 z-0 pointer-events-none opacity-45 sm:opacity-70 lg:opacity-100 transition-opacity duration-1000'>
         <HeroMap />
       </div>
 
