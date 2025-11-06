@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function HackIreland() {
+export default function Unaite() {
   return (
     <div className='p-6 text-white'>
       {/* Two-column layout: text on left, image on right */}
@@ -8,11 +8,11 @@ export default function HackIreland() {
         {/* Left column: Text content */}
         <div className='flex-1 lg:flex-[0.6] space-y-4'>
           <p className='text-xl lg:text-2xl'>
-            Ireland&apos;s biggest student hackathon ever, supported by OpenAI, Stripe. We had less than a 30%
-            acceptance rate with 10% of all participants recruited by our partners.
+            France&apos;s federation of the best eight AI university societies. Hosted 20+ events in one year including
+            Aravind Srinivas, YC Partners, and France&apos;s biggest hackathon.
           </p>
           <p className='text-xl lg:text-2xl'>
-            Supported by: OpenAI, Stripe, Intercom, Tines, Paid.AI, GitLab, and many more.
+            Supported by: Anthropic, Hugging Face, Windsurf, Cerebras, Google Cloud, and many more.
           </p>
         </div>
 
@@ -20,8 +20,8 @@ export default function HackIreland() {
         <div className='flex-1 lg:flex-[0.4]'>
           <div className='border-4 border-white'>
             <Image
-              src='/dublin_location.png'
-              alt='HackIreland event'
+              src='/france_location.png'
+              alt='HackFrance event'
               width={600}
               height={400}
               className='w-full h-auto object-cover'
