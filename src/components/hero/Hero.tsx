@@ -7,25 +7,29 @@ import HeroMap from './HeroMap'
 export default function Hero() {
   return (
     // 100vh - header height
-    <section className='w-full min-h-[calc(100vh-4rem)] lg:min-h-[calc(100vh-5rem)] flex flex-col bg-[var(--color-blue)]'>
-      {/* Hero section with content and map */}
-      <div className='px-4 py-6 sm:px-6 sm:py-8 lg:px-12 lg:py-8 flex-1 flex flex-col'>
-        <div className='flex flex-col lg:flex-row items-start gap-6 sm:gap-8 lg:gap-10 max-w-7xl mx-auto flex-1'>
-          {/* Left side: Content and CTA */}
-          <div className='flex-1 w-full space-y-3 sm:space-y-4 lg:space-y-5 flex flex-col justify-center'>
-            <HeroContent />
-            <HeroSponsorCTA />
+    <section className='w-full min-h-[calc(100vh-4rem)] lg:min-h-[calc(100vh-5rem)] flex flex-col bg-[var(--color-blue)] relative overflow-hidden px-4 py-12 sm:px-6 sm:py-16 lg:px-12'>
+      {/* Background map */}
+      <HeroMap />
+      {/* Hero content */}
+      <div className='relative z-10 w-full flex justify-center'>
+        <div className='max-w-7xl mx-auto w-full'>
+          {/* Hero section with content and map */}
+          <div className='flex-1 flex flex-col'>
+            <div className='flex flex-col lg:flex-row items-start gap-8 sm:gap-10 lg:gap-12 flex-1 w-full'>
+              {/* Left side: Content and CTA */}
+              <div className='flex-[2] w-full space-y-6 sm:space-y-7 lg:space-y-8 flex flex-col justify-center'>
+                <HeroContent />
+                <HeroStatistics />
+                <HeroSponsorCTA />
+              </div>
+              {/* Right spacer removed since map is now background */}
+            </div>
           </div>
-          {/* Map */}
-          <HeroMap />
+
+          {/* Sponsors */}
+          <HeroSponsors />
         </div>
       </div>
-
-      {/* Statistics */}
-      <HeroStatistics />
-
-      {/* Sponsors */}
-      <HeroSponsors />
     </section>
   )
 }
