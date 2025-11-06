@@ -3,7 +3,7 @@ import { Roboto, Libre_Baskerville } from 'next/font/google';
 export const roboto = Roboto({
   subsets: ['latin'],
   variable: '--font-roboto',
-  weight: ['400', '700'], // Regular + Bold
+  weight: ['300', '400', '700'], // Light + Regular + Bold
   display: 'swap',
 });
 
