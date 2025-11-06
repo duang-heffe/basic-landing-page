@@ -20,7 +20,7 @@ export default function HackIreland() {
         <div className='flex-1 lg:flex-[0.4]'>
           <div className='border-4 border-white'>
             <Image
-              src='/dublin_location.png'
+              src='/hackireland_team.svg'
               alt='HackIreland event'
               width={600}
               height={400}

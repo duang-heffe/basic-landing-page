@@ -20,7 +20,7 @@ export default function Unaite() {
         <div className='flex-1 lg:flex-[0.4]'>
           <div className='border-4 border-white'>
             <Image
-              src='/france_location.png'
+              src='/unaite_team.svg'
               alt='HackFrance event'
               width={600}
               height={400}
