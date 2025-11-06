@@ -4,6 +4,7 @@ interface TabsProps {
 }
 
 export default function Tabs({ activeTab, onTabChange }: TabsProps) {
+<<<<<<< HEAD
   const tabs = ['HackIreland', 'Unaite', 'Founders House']
 
   return (
@@ -17,8 +18,33 @@ export default function Tabs({ activeTab, onTabChange }: TabsProps) {
           }`}
         >
           {tab}
+=======
+  const tabs = [
+    { id: 'HackIreland', label: 'Ireland' },
+    { id: 'HackFrance', label: 'France' },
+    { id: 'HackSweden', label: 'Sweden' }
+  ]
+
+  return (
+    <div className='flex gap-4'>
+      {tabs.map((tab) => (
+        <button
+          key={tab.id}
+          onClick={() => onTabChange(tab.id)}
+          className={`px-4 py-2 text-sm font-medium transition-colors ${
+            activeTab === tab.id
+              ? 'bg-orange-500 text-white'
+              : 'bg-gray-700 text-white/80 hover:bg-gray-600'
+          }`}
+        >
+          {tab.label}
+>>>>>>> cdbed7b (Save current work before reconnecting to remote)
         </button>
       ))}
     </div>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cdbed7b (Save current work before reconnecting to remote)

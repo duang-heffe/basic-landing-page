@@ -1,11 +1,10 @@
 export default function TopBar() {
   return (
-    <div className='w-full bg-[var(--color-blue-secondary)] h-8 flex items-center justify-end px-4 gap-4'>
-      {/* Icons placeholder */}
-      <div className='flex gap-2'>
-        <div className='w-4 h-4 bg-gray-400'></div>
-        <div className='w-4 h-4 bg-gray-400'></div>
-        <div className='w-4 h-4 bg-gray-400'></div>
+    <div className='w-full bg-orange-500 px-4 py-2 sm:px-6 lg:px-12'>
+      <div className='max-w-7xl mx-auto'>
+        <p className='text-white text-sm sm:text-base font-medium text-center'>
+          Sponsor HackEurope 2026
+        </p>
       </div>
     </div>
   )

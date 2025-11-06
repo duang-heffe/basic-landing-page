@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Image from 'next/image'
 
 export default function HackIreland() {
@@ -32,3 +33,18 @@ export default function HackIreland() {
     </div>
   )
 }
+=======
+export default function HackIreland() {
+  return (
+    <div className='p-6 text-white'>
+      <div className='space-y-4'>
+        <h3 className='text-2xl font-semibold'>HackIreland</h3>
+        <p>
+          Starting from a single college hackathon (HackTrinity), we scaled to create Hack Ireland— backed by partners including OpenAI, Stripe, Intercom, and Tines.
+        </p>
+        <p>Read the Business Post article here.</p>
+      </div>
+    </div>
+  )
+}
+>>>>>>> cdbed7b (Save current work before reconnecting to remote)

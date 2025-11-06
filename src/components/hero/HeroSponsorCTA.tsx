@@ -1,11 +1,12 @@
 export default function HeroSponsorCTA() {
   return (
-    <div className='pt-2 sm:pt-4'>
-      <p className='text-white mb-2 sm:mb-3 text-sm sm:text-base'>Interested in sponsoring?</p>
-      <button className='flex items-center gap-2 px-4 py-2 sm:px-6 sm:py-3 bg-orange-500 text-white text-sm sm:text-base rounded'>
-        Schedule a call
-        <span className='text-lg sm:text-xl'>→</span>
-      </button>
+    <div className='pt-2 sm:pt-4 max-w-md'>
+      <div className='bg-[var(--color-black)] px-4 py-4 sm:px-6 sm:py-5'>
+        <p className='text-white/90 font-serif italic mb-3 text-[18.7px]'>Interested in becoming a sponsor?</p>
+        <button className='w-full bg-white text-[var(--color-black)] px-4 py-2 sm:py-2.5 text-[18.7px] font-normal'>
+          Schedule a Call
+        </button>
+      </div>
     </div>
   )
 }
