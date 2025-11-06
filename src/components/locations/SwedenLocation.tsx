@@ -1,9 +1,32 @@
+import Image from "next/image";
+
 export default function SwedenLocation() {
   return (
-    <div className='flex flex-col gap-3 sm:gap-4'>
-      {/* Image placeholder */}
-      <div className='w-full aspect-video bg-blue-900/30 rounded-lg border border-blue-700/30 flex items-center justify-center'>
-        <div className='text-white/50 text-sm'>insert image here</div>
+    <div className='flex flex-col mt-50'>
+      <div className="flex justify-between p-3 bg-[var(--color-blue)]">
+        <div className='text-white font-serif text-2xl'>/Sweden</div>
+        {/* window buttons */}
+        <div className="self-center">
+          <Image
+            src="/file-buttons.png"
+            alt="File buttons"
+            width={50}
+            height={50}
+          />
+        </div>
+      </div>
+      <div className="relative w-full" style={{ paddingTop: '80%' }}>
+        <Image
+          src="/sweden_location.png"
+          alt="Norrsken House"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+      <div className="font-light bg-white p-3 text-lg">
+        <div className="font-bold">Norrsken House</div>
+        <div>300 Hackers</div>
       </div>
     </div>
   )
