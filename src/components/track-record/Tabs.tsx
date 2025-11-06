@@ -4,7 +4,7 @@ interface TabsProps {
 }
 
 export default function Tabs({ activeTab, onTabChange }: TabsProps) {
-  const tabs = ['HackIreland', 'HackFrance', 'HackSweden']
+  const tabs = ['HackIreland', 'Unaite', 'Founders House']
 
   return (
     <div className='flex gap-2'>
