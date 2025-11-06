@@ -10,7 +10,15 @@ export default function SwedenLocation() {
         className=""
       >       
         <div className="flex justify-between p-3 bg-[var(--color-blue)]">
-          <div className='text-white font-serif text-2xl'>/Sweden</div>
+          <div className='text-white font-serif text-2xl'>/Stockholm</div>
+          <div className="self-center">
+            <Image
+              src="/external-link-icon.svg"
+              alt="File buttons"
+              width={30}
+              height={30}
+            />
+          </div>          
         </div>
         <div className="relative w-full" style={{ paddingTop: '80%' }}>
           <Image
