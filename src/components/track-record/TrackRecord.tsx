@@ -17,7 +17,7 @@ export default function TrackRecord() {
         <div className='relative'>
           <div className='absolute -top-10 z-20'>
             <ClickSpark
-              sparkColor='var(--color-orange)'
+              sparkColor='#F07A04'
               sparkSize={15}
               sparkRadius={20}
               sparkCount={8}
