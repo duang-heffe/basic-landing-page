@@ -236,7 +236,7 @@ export const LogoLoop = memo(
         ) : (
           <img
             className={cx(
-              'h-[var(--logoloop-logoHeight)] w-auto block object-contain',
+              'h-[var(--logoloop-logoHeight)] w-auto object-contain',
               '[-webkit-user-drag:none] pointer-events-none',
               '[image-rendering:-webkit-optimize-contrast]',
               'filter brightness-0 invert transition duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]',
@@ -350,7 +350,7 @@ export const LogoLoop = memo(
         )}
 
         <div
-          className={cx('flex w-max will-change-transform select-none', 'motion-reduce:transform-none')}
+          className={cx('flex items-center w-max will-change-transform select-none', 'motion-reduce:transform-none')}
           ref={trackRef}
         >
           {logoLists}
