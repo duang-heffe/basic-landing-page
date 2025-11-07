@@ -17,7 +17,7 @@ export default function TrackRecord() {
         <div className='relative'>
           <div className='absolute -top-10 z-20'>
             <ClickSpark
-              sparkColor='#f97316'
+              sparkColor='var(--color-orange)'
               sparkSize={15}
               sparkRadius={20}
               sparkCount={8}
@@ -26,8 +26,8 @@ export default function TrackRecord() {
               <Tabs activeTab={activeTab} onTabChange={setActiveTab} />
             </ClickSpark>
           </div>
-          <div className='bg-orange-500 border-4 border-white'>
-            <div className='bg-orange-500 relative overflow-hidden'>
+          <div className='bg-[var(--color-orange)] border-4 border-white'>
+            <div className='bg-[var(--color-orange)] relative overflow-hidden'>
               {/* Pre-mount all components for smooth transitions -> we were getting some weird artifacts */}
               <div
                 className={`${

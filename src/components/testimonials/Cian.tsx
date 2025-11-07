@@ -18,7 +18,7 @@ export default function Cian() {
       {/* Quote */}
       <div className="flex flex-col justify-between min-h-[120px] h-full">
         <p className='text-white/90 text-sm sm:text-base leading-relaxed mb-2'>
-          “Honoured to be a judge at HackIreland at the weekend. The innovation and technical skill demonstrated by 150 talented builders over 30 intense hours were truly impressive."”
+          “Honoured to be a judge at HackIreland at the weekend. The innovation and technical skill demonstrated by 150 talented builders over 30 intense hours were truly impressive.”
         </p>
 
         <div className="mt-auto">
@@ -27,7 +27,7 @@ export default function Cian() {
 
           {/* Role + logo row */}
           <div className='flex items-center justify-between'>
-            <div className='text-orange-500 text-sm sm:text-base'>Stripe EMEA CTO</div>
+            <div className='text-[var(--color-orange)] text-sm sm:text-base'>Stripe EMEA CTO</div>
             <Link href="https://www.stripe.com/" target="_blank">
               <Image
                 src='/stripe_logo_no_margins.png' 

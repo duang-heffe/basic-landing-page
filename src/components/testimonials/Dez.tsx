@@ -27,7 +27,7 @@ export default function Dez() {
 
           {/* Role + logo row */}
           <div className='flex items-center justify-between'>
-            <div className='text-orange-500 text-sm sm:text-base'>Co-founder of Intercom</div>
+            <div className='text-[var(--color-orange)] text-sm sm:text-base'>Co-founder of Intercom</div>
             <Link href="https://www.intercom.com/" target="_blank">
               <Image
                 src='/intercom_logo.png' 

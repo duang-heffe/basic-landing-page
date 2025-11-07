@@ -28,7 +28,7 @@ export default function Julie() {
 
           {/* Role + logo row */}
           <div className='flex items-center justify-between'>
-            <div className='text-orange-500 text-sm sm:text-base'>Head of OpenAI EU Partnerships</div>
+            <div className='text-[var(--color-orange)] text-sm sm:text-base'>Head of OpenAI EU Partnerships</div>
             <Link href="https://openai.com/" target="_blank">
               <Image
                 src='/openai_logo.png' 
