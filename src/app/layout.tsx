@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Join 1,000 of Europe\'s brightest student builders for a weekend of innovation. February 21-22, 2026.',
   icons: {
     icon: [
-      { url: '/icon.svg', sizes: '128x150', type: 'image/svg+xml' },
-      { url: '/icon.svg', sizes: '192x192', type: 'image/svg+xml' },
+      { url: '/icon.svg', sizes: '16x16', type: 'image/svg+xml' },
+      { url: '/icon.svg', sizes: '32x32', type: 'image/svg+xml' },
+      { url: '/icon.svg', sizes: '48x48', type: 'image/svg+xml' },
+      { url: '/icon.svg', sizes: '64x64', type: 'image/svg+xml' },
+      { url: '/icon.svg', sizes: '128x128', type: 'image/svg+xml' },
+      { url: '/icon.svg', sizes: '256x256', type: 'image/svg+xml' },
       { url: '/icon.svg', sizes: '512x512', type: 'image/svg+xml' },
     ],
     apple: [
