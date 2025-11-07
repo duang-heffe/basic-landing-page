@@ -58,7 +58,7 @@ const universityLogos: UniversityLogo[] = [
     href: 'https://www.tum.de/'
   },
   {
-    src: '/ecole_logo.png',
+    src: '/polytechnique_logo.png',
     alt: 'Ecole Polytechnique logo',
     title: 'Ecole Polytechnique',
     href: 'https://www.polytechnique.edu/'
@@ -76,17 +76,17 @@ const universityLogos: UniversityLogo[] = [
     href: 'https://www.kth.se/'
   },
   {
-    src: '/uniwarzaw_logo.png',
+    src: '/warsaw_logo.png',
     alt: 'University of Warsaw logo',
     title: 'University of Warsaw',
     href: 'https://en.uw.edu.pl/'
-  },
-  {
-    src: '/upbromania_logo.png',
-    alt: 'University POLITEHNICA of Bucharest logo',
-    title: 'University POLITEHNICA of Bucharest',
-    href: 'https://upb.ro/'
   }
+//   {
+//     src: '/upbromania_logo.png',
+//     alt: 'University POLITEHNICA of Bucharest logo',
+//     title: 'University POLITEHNICA of Bucharest',
+//     href: 'https://upb.ro/'
+//   }
 ];
 
 const LoopProps: LogoLoopProps = {

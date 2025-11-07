@@ -13,7 +13,7 @@ export default function SwedenLocation() {
           <div className='text-white font-serif text-2xl'>/Stockholm</div>
           <div className="self-center">
             <Image
-              src="/external-link-icon.svg"
+              src="/external_link_icon.svg"
               alt="File buttons"
               width={30}
               height={30}
