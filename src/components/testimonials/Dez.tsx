@@ -23,7 +23,7 @@ export default function Dez() {
 
         <div className="mt-auto">
           {/* Name */}
-          <div className='text-white text-sm sm:text-base'>Des Traynor</div>
+          <div className='text-white text-sm sm:text-base font-serif'>Des Traynor</div>
 
           {/* Role + logo row */}
           <div className='flex items-center justify-between'>
