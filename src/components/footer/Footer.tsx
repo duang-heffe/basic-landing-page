@@ -55,9 +55,9 @@ export default function Footer() {
                 <h3 className='text-white text-base sm:text-lg italic mb-3 font-serif'>Stay Connected</h3>
                 <ul className='space-y-1.5'>
                   <li className='text-gray-300 text-sm sm:text-base'>
-                    <a 
-                      href='https://www.instagram.com/hack.ireland/' 
-                      target='_blank' 
+                    <a
+                      href='https://www.instagram.com/hack.ireland/'
+                      target='_blank'
                       rel='noreferrer noopener'
                       className='hover:opacity-80 transition-opacity'
                     >
@@ -65,9 +65,9 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className='text-gray-300 text-sm sm:text-base'>
-                    <a 
-                      href='https://www.linkedin.com/company/hackireland/' 
-                      target='_blank' 
+                    <a
+                      href='https://www.linkedin.com/company/hackireland/'
+                      target='_blank'
                       rel='noreferrer noopener'
                       className='hover:opacity-80 transition-opacity'
                     >
@@ -75,9 +75,9 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className='text-gray-300 text-sm sm:text-base'>
-                    <a 
-                      href='https://x.com/HackIreland' 
-                      target='_blank' 
+                    <a
+                      href='https://x.com/HackIreland'
+                      target='_blank'
                       rel='noreferrer noopener'
                       className='hover:opacity-80 transition-opacity'
                     >
@@ -106,11 +106,21 @@ export default function Footer() {
         <div className='space-y-2 text-center'>
           <p className='text-gray-300 text-sm sm:text-base'>
             Made with ❤️ by{' '}
-            <a href='https://emeroconnor.dev/' target='_blank' rel='noreferrer noopener' className='underline hover:opacity-80 transition-opacity'>
+            <a
+              href='https://emeroconnor.dev/'
+              target='_blank'
+              rel='noreferrer noopener'
+              className='underline hover:opacity-80 transition-opacity'
+            >
               Emer
             </a>
             {', '}
-            <a href='https://lukemolony.com' target='_blank' rel='noreferrer noopener' className='underline hover:opacity-80 transition-opacity'>
+            <a
+              href='https://lukemolony.com'
+              target='_blank'
+              rel='noreferrer noopener'
+              className='underline hover:opacity-80 transition-opacity'
+            >
               Luke
             </a>
             {' & '}
@@ -123,21 +133,14 @@ export default function Footer() {
               Reuban
             </a>
           </p>
-          <p className='text-gray-400 text-xs sm:text-sm'>
-            Copyright © 2025. All rights reserved.
-          </p>
+          <p className='text-gray-400 text-xs sm:text-sm'>Copyright © 2025. All rights reserved.</p>
         </div>
       </div>
 
       {/* Right Section - Map - Absolute positioned to extend to right edge */}
       <div className='absolute top-8 right-0 hidden lg:block w-1/2 h-[350px] opacity-20 pointer-events-none'>
         <div className='relative w-full h-full'>
-          <Image
-            src='/full map.svg'
-            alt='Map'
-            fill
-            className='object-contain scale-[2.6]'
-          />
+          <Image src='/full_map.svg' alt='Map' fill className='object-contain scale-[2.6]' />
         </div>
       </div>
     </footer>

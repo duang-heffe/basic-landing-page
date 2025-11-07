@@ -1,30 +1,30 @@
-import { type CSSProperties, type ComponentType } from 'react';
-import LogoLoop from './LogoLoop';
+import { type CSSProperties, type ComponentType } from 'react'
+import LogoLoop from './LogoLoop'
 
 type UniversityLogo = {
-  src: string;
-  alt: string;
-  href: string;
-  title?: string;
-};
+  src: string
+  alt: string
+  href: string
+  title?: string
+}
 
 type LogoLoopProps = {
-  logos: UniversityLogo[];
-  speed?: number;
-  direction?: 'left' | 'right';
-  width?: number | string;
-  logoHeight?: number;
-  gap?: number;
-  pauseOnHover?: boolean;
-  fadeOut?: boolean;
-  fadeOutColor?: string;
-  scaleOnHover?: boolean;
-  ariaLabel?: string;
-  className?: string;
-  style?: CSSProperties;
-};
+  logos: UniversityLogo[]
+  speed?: number
+  direction?: 'left' | 'right'
+  width?: number | string
+  logoHeight?: number
+  gap?: number
+  pauseOnHover?: boolean
+  fadeOut?: boolean
+  fadeOutColor?: string
+  scaleOnHover?: boolean
+  ariaLabel?: string
+  className?: string
+  style?: CSSProperties
+}
 
-const LogoLoopComponent = LogoLoop as unknown as ComponentType<LogoLoopProps>;
+const LogoLoopComponent = LogoLoop as unknown as ComponentType<LogoLoopProps>
 
 const universityLogos: UniversityLogo[] = [
   {
@@ -81,13 +81,13 @@ const universityLogos: UniversityLogo[] = [
     title: 'University of Warsaw',
     href: 'https://en.uw.edu.pl/'
   }
-//   {
-//     src: '/upbromania_logo.png',
-//     alt: 'University POLITEHNICA of Bucharest logo',
-//     title: 'University POLITEHNICA of Bucharest',
-//     href: 'https://upb.ro/'
-//   }
-];
+  //   {
+  //     src: '/upbromania_logo.png',
+  //     alt: 'University POLITEHNICA of Bucharest logo',
+  //     title: 'University POLITEHNICA of Bucharest',
+  //     href: 'https://upb.ro/'
+  //   }
+]
 
 const LoopProps: LogoLoopProps = {
   logos: universityLogos,
@@ -100,13 +100,12 @@ const LoopProps: LogoLoopProps = {
   fadeOut: false,
   scaleOnHover: true,
   className: '[--logoloop-logoHeight:42px] sm:[--logoloop-logoHeight:48px] lg:[--logoloop-logoHeight:64px]'
-};
+}
 
 const Universities = () => (
-  <section className="w-full bg-[var(--color-orange)] py-1">
+  <section className='w-full bg-[var(--color-orange)] py-1'>
     <LogoLoopComponent {...LoopProps} />
   </section>
-);
+)
 
-export default Universities;
-
+export default Universities

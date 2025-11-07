@@ -17,59 +17,39 @@ export default function FoundersHouse() {
           </Link>          
 
           <div>
-            <p className='text-base sm:text-sm md:text-md lg:text-lg italic pt-8'>
-              Supported by:
-            </p>
+            <p className='text-base sm:text-sm md:text-md lg:text-lg italic pt-8'>Supported by:</p>
             <div className='flex flex-wrap gap-8 justify-center'>
               <Image
-                src='/lovable_logo_white.png' 
+                src='/lovable_logo_white.png'
                 alt='Lovable logo'
                 width={100}
                 height={100}
                 className='self-center'
               />
+              <Image src='/legora_logo.png' alt='Legora logo' width={90} height={90} className='self-center' />
+              <Image src='/spotify_logo.png' alt='Spotify logo' width={90} height={90} className='self-center' />
               <Image
-                src='/legora_logo.png' 
-                alt='Legora logo'
-                width={90}
-                height={90}
-                className='self-center'
-              />    
-              <Image
-                src='/spotify_logo.png' 
-                alt='Spotify logo'
-                width={90}
-                height={90}
-                className='self-center'
-              />  
-              <Image
-                src='/tandem_health_logo.png' 
+                src='/tandem_health_logo.png'
                 alt='Tandem Health logo'
                 width={100}
                 height={100}
                 className='self-center'
-              />  
+              />
               <Image
-                src='/modal_logo_monochrome.png' 
+                src='/modal_logo_monochrome.png'
                 alt='Modal logo'
                 width={100}
                 height={100}
                 className='self-center'
-              />                                                          
-            </div>            
+              />
+            </div>
           </div>
         </div>
 
         {/* Right column: Image with white border */}
         <div className='flex-1 lg:flex-[0.6] order-first'>
           <div className='border-2 sm:border-4 border-white relative w-full' style={{ paddingTop: '80%' }}>
-            <Image
-              src='/foundershouse_updated.jpeg'
-              alt='HackSweden event'
-              fill
-              className='object-cover'
-              priority
-            />
+            <Image src='/foundershouse_updated.jpeg' alt='HackSweden event' fill className='object-cover' priority />
           </div>
         </div>
       </div>

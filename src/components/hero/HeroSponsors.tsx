@@ -5,8 +5,13 @@ export default function HeroSponsors() {
   return (
     <div className='w-full'>
       <div className='flex flex-wrap items-center justify-center sm:justify-start gap-4 sm:gap-6 md:gap-6'>
-           {/* OpenAi, Stripe, Lovable, Intercom, Project Europe, Paid, Wellspin */}    
-        <Link href='https://openai.com/' target='_blank' rel='noopener noreferrer' className='opacity-80 hover:opacity-100 transition-opacity'>
+        {/* OpenAi, Stripe, Lovable, Intercom, Project Europe, Paid, Wellspin */}
+        <Link
+          href='https://openai.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='opacity-80 hover:opacity-100 transition-opacity'
+        >
           <Image
             src='/openai_logo.png'
             alt='OpenAI'
@@ -15,8 +20,13 @@ export default function HeroSponsors() {
             className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
             priority
           />
-        </Link>              
-        <Link href='https://stripe.com/' target='_blank' rel='noopener noreferrer' className='opacity-80 hover:opacity-100 transition-opacity'>
+        </Link>
+        <Link
+          href='https://stripe.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='opacity-80 hover:opacity-100 transition-opacity'
+        >
           <Image
             src='/stripe_logo_no_margins.png'
             alt='Stripe'
@@ -26,25 +36,28 @@ export default function HeroSponsors() {
             priority
           />
         </Link>
-        <Link href='https://lovable.dev/' target='_blank' rel='noopener noreferrer' className='opacity-80 hover:opacity-100 transition-opacity'>
-          <Image
-            src='/lovable_logo.svg'
-            alt='Lovable'
-            width={80}
-            height={24}
-            className='h-5 sm:h-6 w-auto'
-          />
-        </Link>        
-        <Link href='https://www.intercom.com/' target='_blank' rel='noopener noreferrer' className='opacity-80 hover:opacity-100 transition-opacity'>
-          <Image
-            src='/intercom_logo.svg'
-            alt='Intercom'
-            width={60}
-            height={24}
-            className='h-5 sm:h-6  w-auto'
-          />
+        <Link
+          href='https://lovable.dev/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='opacity-80 hover:opacity-100 transition-opacity'
+        >
+          <Image src='/lovable_logo.svg' alt='Lovable' width={80} height={24} className='h-5 sm:h-6 w-auto' />
         </Link>
-        <Link href='https://paid.ai/' target='_blank' rel='noopener noreferrer' className='opacity-80 hover:opacity-100 transition-opacity'>
+        <Link
+          href='https://www.intercom.com/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='opacity-80 hover:opacity-100 transition-opacity'
+        >
+          <Image src='/intercom_logo.svg' alt='Intercom' width={60} height={24} className='h-5 sm:h-6  w-auto' />
+        </Link>
+        <Link
+          href='https://paid.ai/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='opacity-80 hover:opacity-100 transition-opacity'
+        >
           <Image
             src='/paid_logo.svg'
             alt='Paid'
@@ -83,4 +96,3 @@ export default function HeroSponsors() {
     </div>
   )
 }
-

@@ -9,18 +9,20 @@ export default function InterestedSponsor() {
 
         {/* Main black box with its own outline */}
         <div className='relative z-10 bg-[var(--color-black)] border-4 border-white px-3 py-3 sm:px-6 sm:py-5'>
-          <p className='text-white/90 font-serif italic mb-3 text-base sm:text-lg lg:text-[clamp(16px,1.5vw,18.7px)]'>Interested in becoming a sponsor?</p>
+          <p className='text-white/90 font-serif italic mb-3 text-base sm:text-lg lg:text-[clamp(16px,1.5vw,18.7px)]'>
+            Interested in becoming a sponsor?
+          </p>
           <StarBorder
-            as="a"
-            href="https://calendly.com/happygeo0/30min"
-            target="_blank"
-            rel="noreferrer noopener"
-            color="white"
-            speed="3s"
+            as='a'
+            href='https://calendly.com/happygeo0/30min'
+            target='_blank'
+            rel='noreferrer noopener'
+            color='white'
+            speed='3s'
             thickness={2}
-            className="w-full group transition-all duration-300 hover:scale-[1.02]"
+            className='w-full group transition-all duration-300 hover:scale-[1.02]'
           >
-            <div className="bg-white text-[var(--color-black)] px-4 py-2 sm:py-2.5 text-base sm:text-lg lg:text-[clamp(16px,1.5vw,18.7px)] font-normal -my-[16px] -mx-[26px] rounded-none transition-all duration-300">
+            <div className='bg-white text-[var(--color-black)] px-4 py-2 sm:py-2.5 text-base sm:text-lg lg:text-[clamp(16px,1.5vw,18.7px)] font-normal -my-[16px] -mx-[26px] rounded-none transition-all duration-300'>
               Schedule a Call
             </div>
           </StarBorder>

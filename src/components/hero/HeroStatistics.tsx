@@ -8,7 +8,9 @@ export default function HeroStatistics() {
         </div>
         <div className='flex flex-col'>
           <div className='text-white text-3xl sm:text-4xl lg:text-[clamp(32px,3vw,42px)] font-medium'>1,000+</div>
-          <div className='text-white/80 text-xs sm:text-sm lg:text-[clamp(13px,1.2vw,17px)] font-light'>Participants</div>
+          <div className='text-white/80 text-xs sm:text-sm lg:text-[clamp(13px,1.2vw,17px)] font-light'>
+            Participants
+          </div>
         </div>
         <div className='flex flex-col'>
           <div className='text-white text-3xl sm:text-4xl lg:text-[clamp(32px,3vw,42px)] font-medium'>€100K</div>
@@ -18,4 +20,3 @@ export default function HeroStatistics() {
     </div>
   )
 }
-
