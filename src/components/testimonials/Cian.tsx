@@ -23,7 +23,7 @@ export default function Cian() {
 
         <div className="mt-auto">
           {/* Name */}
-          <div className='text-white text-sm sm:text-base'>Cian O&apos;Driscoll</div>
+          <div className='text-white text-sm sm:text-base font-serif'>Cian O&apos;Driscoll</div>
 
           {/* Role + logo row */}
           <div className='flex items-center justify-between'>

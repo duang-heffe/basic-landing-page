@@ -6,7 +6,7 @@ export default function Sponsor() {
     <section id='sponsor' className='w-full bg-[var(--color-blue)]'>
       <div className='w-full px-4 py-12 sm:px-6 sm:py-16'>
         <div className='max-w-7xl mx-auto'>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-8'>
             <WhySponsor />
             <InterestedSponsor />
           </div>

@@ -2,8 +2,9 @@ import Image from 'next/image'
 
 export default function HeroHeader() {
   return (
-    <header className='bg-[var(--color-black)] w-full sticky top-0 z-50'>
-      <nav className='flex items-center justify-between px-2 py-2 sm:px-3 sm:py-2.5 lg:px-6 lg:py-3'>
+    <div className='fixed top-0 left-0 right-0 z-50 px-4 pt-4 sm:px-6 sm:pt-5 lg:px-20 lg:pt-6'>
+      <header className='bg-[var(--color-black)] w-full'>
+        <nav className='flex items-center justify-between px-2 py-2 sm:px-3 sm:py-2.5 lg:px-6 lg:py-3'>
         {/* Logo */}
         <div className='flex items-center'>
           <Image
@@ -21,6 +22,7 @@ export default function HeroHeader() {
           <div className='text-white text-sm italic font-serif'>February 21 - 22, 2026</div>
         </div>
       </nav>
-    </header>
+      </header>
+    </div>
   )
 }

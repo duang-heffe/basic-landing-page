@@ -12,6 +12,7 @@ export default function HeroSponsors() {
             width={80}
             height={24}
             className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
+            priority
           />
         </div>              
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
@@ -21,6 +22,7 @@ export default function HeroSponsors() {
             width={80}
             height={24}
             className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
+            priority
           />
         </div>
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
@@ -45,9 +47,10 @@ export default function HeroSponsors() {
           <Image
             src='/paid_logo.svg'
             alt='Paid'
-            width={60}
-            height={24}
+            width={180}
+            height={72}
             className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
+            priority
           />
         </div>
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
