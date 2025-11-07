@@ -106,16 +106,18 @@ export default function Footer() {
         <div className='space-y-2 text-center'>
           <p className='text-gray-300 text-sm sm:text-base'>
             Made with ❤️ by{' '}
-            <a href='https://emeroconnor.dev/' className='underline hover:opacity-80 transition-opacity'>
+            <a href='https://emeroconnor.dev/' target='_blank' rel='noreferrer noopener' className='underline hover:opacity-80 transition-opacity'>
               Emer
             </a>
             {', '}
-            <a href='https://lukemolony.com' className='underline hover:opacity-80 transition-opacity'>
+            <a href='https://lukemolony.com' target='_blank' rel='noreferrer noopener' className='underline hover:opacity-80 transition-opacity'>
               Luke
             </a>
             {' & '}
             <a
               href='https://www.linkedin.com/in/reuban-ramsden/'
+              target='_blank'
+              rel='noreferrer noopener'
               className='underline hover:opacity-80 transition-opacity'
             >
               Reuban
