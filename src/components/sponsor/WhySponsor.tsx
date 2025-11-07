@@ -19,9 +19,9 @@ export default function WhySponsor() {
             alt='HackEurope'
             width={150}
             height={40}
-            className='h-6 sm:h-7 lg:h-8 w-auto inline-block'
+            className='h-6 sm:h-7 lg:h-8 w-auto inline-block self-center'
           />
-          ?
+          <span className='self-center'>?</span>
         </h3>
 
         <div className='space-y-6 text-white/90 text-sm sm:text-base'>
