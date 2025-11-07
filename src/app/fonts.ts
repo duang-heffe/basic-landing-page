@@ -1,11 +1,4 @@
-import { Roboto, Libre_Baskerville } from 'next/font/google'
-
-export const roboto = Roboto({
-  subsets: ['latin'],
-  variable: '--font-roboto',
-  weight: ['300', '400', '700'],
-  display: 'swap'
-})
+import { Libre_Baskerville } from 'next/font/google'
 
 export const libreBaskerville = Libre_Baskerville({
   subsets: ['latin'],
@@ -14,4 +7,4 @@ export const libreBaskerville = Libre_Baskerville({
   display: 'swap'
 })
 
-export const fontVariables = `${roboto.variable} ${libreBaskerville.variable}`
+export const fontVariables = `${libreBaskerville.variable}`
