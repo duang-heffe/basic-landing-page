@@ -14,7 +14,7 @@ export default function ParisLocation() {
           <div className='text-white font-serif text-2xl'>/Paris</div>
           <div className="self-center">
             <Image
-              src="/external-link-icon.svg"
+              src="/external_link_icon.svg"
               alt="File buttons"
               width={30}
               height={30}

@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
 
-    <section className='w-full lg:min-h-screen bg-[var(--color-blue)] relative overflow-hidden pt-20 sm:pt-24 lg:pt-28'>
+    <section className='w-full lg:min-h-screen bg-[var(--color-blue)] relative overflow-hidden pt-0 sm:pt-4 lg:pt-8'>
 
       {/* Map Section - absolutely positioned in top right, behind everything */}
 
@@ -36,7 +36,7 @@ export default function Hero() {
 
           {/* Text Section */}
 
-          <div className='flex flex-col space-y-6 sm:space-y-8 lg:space-y-[clamp(32px,4vh,40px)] text-center sm:text-left'>
+          <div className='flex flex-col space-y-6 sm:space-y-8 lg:space-y-[clamp(32px,4vh,40px)] text-center sm:text-left lg:max-w-[48rem] lg:ml-[6rem]'>
 
             <HeroTitle />
 

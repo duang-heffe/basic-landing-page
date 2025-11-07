@@ -1,3 +1,5 @@
+"use client";
+
 import { useCallback, useEffect, useMemo, useRef, useState, memo } from 'react';
 
 const ANIMATION_CONFIG = {
@@ -142,7 +144,7 @@ export const LogoLoop = memo(
     speed = 120,
     direction = 'left',
     width = '100%',
-    logoHeight = 28,
+    logoHeight,
     gap = 32,
     pauseOnHover = true,
     fadeOut = false,
@@ -187,7 +189,7 @@ export const LogoLoop = memo(
     const cssVariables = useMemo(
       () => ({
         '--logoloop-gap': `${gap}px`,
-        '--logoloop-logoHeight': `${logoHeight}px`,
+        ...(logoHeight != null && { '--logoloop-logoHeight': `${logoHeight}px` }),
         ...(fadeOutColor && { '--logoloop-fadeColor': fadeOutColor })
       }),
       [gap, logoHeight, fadeOutColor]
@@ -237,9 +239,10 @@ export const LogoLoop = memo(
               'h-[var(--logoloop-logoHeight)] w-auto block object-contain',
               '[-webkit-user-drag:none] pointer-events-none',
               '[image-rendering:-webkit-optimize-contrast]',
+              'filter brightness-0 invert transition duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]',
+              'group-hover/logo:[filter:brightness(0)_invert(1)_sepia(.4)_saturate(6)_hue-rotate(-12deg)_brightness(1.05)]',
               'motion-reduce:transition-none',
-              scaleOnHover &&
-                'transition-transform duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] group-hover/item:scale-120'
+              scaleOnHover && 'group-hover/item:scale-120'
             )}
             src={item.src}
             srcSet={item.srcSet}
@@ -259,9 +262,8 @@ export const LogoLoop = memo(
         const inner = item.href ? (
           <a
             className={cx(
-              'inline-flex items-center no-underline rounded',
-              'transition-opacity duration-200 ease-linear',
-              'hover:opacity-80',
+              'inline-flex items-center no-underline rounded group/logo',
+              'transition duration-200 ease-linear',
               'focus-visible:outline focus-visible:outline-current focus-visible:outline-offset-2'
             )}
             href={item.href}

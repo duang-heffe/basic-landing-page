@@ -6,7 +6,7 @@ export default function HeroTitle() {
         <span className='font-serif font-normal italic relative inline-block'>
           Largest
           <img 
-            src='/Underline.svg' 
+            src='/underline.svg' 
             alt='' 
             className='absolute top-[100%] left-0 -mt-[11px] w-full h-[18px] sm:h-[26px] lg:h-[35px] object-contain -z-10'
           />

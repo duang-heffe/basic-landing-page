@@ -5,12 +5,14 @@ import Locations from '@/components/locations/Locations'
 import TrackRecord from '@/components/track-record/TrackRecord'
 import Testimonials from '@/components/testimonials/Testimonials'
 import Sponsor from '@/components/sponsor/Sponsor'
+import Universities from '@/components/universities/Universities'
 
 export default function Home() {
   return (
     <main className='min-h-screen bg-[var(--color-blue)]'>
       <HeroHeader />
       <Hero />
+      <Universities />
       <Locations />
       <TrackRecord />
       <Testimonials />
