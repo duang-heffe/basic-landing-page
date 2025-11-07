@@ -7,16 +7,14 @@ export const metadata: Metadata = {
   description: "Join 1,000 of Europe's brightest student builders for a weekend of innovation. February 21-22, 2026.",
   icons: {
     icon: [
-      { url: '/icon.svg', sizes: '16x16', type: 'image/svg+xml' },
-      { url: '/icon.svg', sizes: '32x32', type: 'image/svg+xml' },
-      { url: '/icon.svg', sizes: '48x48', type: 'image/svg+xml' },
-      { url: '/icon.svg', sizes: '64x64', type: 'image/svg+xml' },
-      { url: '/icon.svg', sizes: '128x128', type: 'image/svg+xml' },
-      { url: '/icon.svg', sizes: '256x256', type: 'image/svg+xml' },
-      { url: '/icon.svg', sizes: '512x512', type: 'image/svg+xml' }
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' }
     ],
-    apple: [{ url: '/icon.svg', sizes: '180x180', type: 'image/svg+xml' }]
-  }
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }]
+  },
+  manifest: '/site.webmanifest'
 }
 
 export default function RootLayout({
