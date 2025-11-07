@@ -11,7 +11,7 @@ export default function TrackRecord() {
   const [activeTab, setActiveTab] = useState('HackIreland')
 
   return (
-    <section className='w-full px-4 py-12 sm:px-6 sm:py-16 lg:px-12 bg-[var(--color-dark-gray)]'>
+    <section id='track-record' className='w-full px-4 py-12 sm:px-6 sm:py-16 lg:px-12 bg-[var(--color-dark-gray)]'>
       <div className='max-w-7xl mx-auto'>
         <div className='text-white text-4xl font-serif italic mb-16'>Our Track Record</div>
         <div className='relative'>
