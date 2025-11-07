@@ -28,7 +28,7 @@ const LogoLoopComponent = LogoLoop as unknown as ComponentType<LogoLoopProps>;
 
 const universityLogos: UniversityLogo[] = [
   {
-    src: '/cambridge_logo.png',
+    src: '/cambridge_logo.svg',
     alt: 'University of Cambridge logo',
     title: 'University of Cambridge',
     href: 'https://www.cam.ac.uk/'
