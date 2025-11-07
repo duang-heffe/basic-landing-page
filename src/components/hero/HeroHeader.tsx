@@ -18,7 +18,7 @@ export default function HeroHeader() {
         {/* Right side */}
         <div className='flex items-center gap-3 sm:gap-4'>
           {/* Date */}
-          <div className='text-white text-sm italic'>February 21, 2026</div>
+          <div className='text-white text-sm italic font-serif'>February 21 - 22, 2026</div>
         </div>
       </nav>
     </header>
