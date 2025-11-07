@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
 
-    <section className='w-full lg:min-h-screen bg-[var(--color-blue)] relative overflow-hidden pt-20 sm:pt-24 lg:pt-28'>
+    <section className='w-full lg:min-h-screen bg-[var(--color-blue)] relative overflow-hidden pt-2 sm:pt-6 lg:pt-10'>
 
       {/* Map Section - absolutely positioned in top right, behind everything */}
 
