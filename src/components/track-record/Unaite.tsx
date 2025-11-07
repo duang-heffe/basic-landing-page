@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from "next/link";
 
 export default function Unaite() {
   return (
@@ -11,6 +12,9 @@ export default function Unaite() {
             France&apos;s federation of the best eight AI university societies. Hosted 20+ events in one year including
             Aravind Srinivas, YC Partners, and France&apos;s biggest hackathon.
           </p>
+          <Link href="https://unaite.fr/" target="_blank" className='text-base sm:text-lg md:text-xl lg:text-2xl underline'>
+            Visit the Unaite site.
+          </Link>          
 
           <div>
             <p className='text-base sm:text-sm md:text-md lg:text-lg italic pt-8'>

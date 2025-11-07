@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from "next/link";
 
 export default function FoundersHouse() {
   return (
@@ -11,6 +12,9 @@ export default function FoundersHouse() {
             Sweden&apos;s biggest startup community, hosting events with Daniel Eck, Anton Osika, and Max Junestrand.
             Hosts of Project Lovable hackathon with Project Europe.
           </p>
+          <Link href="https://founders-house.com/" target="_blank" className='text-base sm:text-lg md:text-xl lg:text-2xl underline'>
+            Visit the Founders House site.
+          </Link>          
 
           <div>
             <p className='text-base sm:text-sm md:text-md lg:text-lg italic pt-8'>

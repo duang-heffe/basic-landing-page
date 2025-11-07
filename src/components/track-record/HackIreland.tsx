@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from "next/link";
 
 export default function HackIreland() {
   return (
@@ -12,6 +13,9 @@ export default function HackIreland() {
             Ireland&apos;s biggest student hackathon ever, supported by OpenAI, Stripe, Intercom and Tines. We had less than a 30%
             acceptance rate with 10% of all participants recruited by our partners.
           </p>
+          <Link href="https://www.hackireland.com/" target="_blank" className='text-base sm:text-lg md:text-xl lg:text-2xl underline'>
+            Visit the HackIreland site.
+          </Link>
 
           <div>
             <p className='text-base sm:text-sm md:text-md lg:text-lg italic pt-8'>
