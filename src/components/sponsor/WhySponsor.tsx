@@ -10,7 +10,7 @@ export default function WhySponsor() {
       <div className='relative z-10 bg-[var(--color-black)] border-4 border-white p-4 sm:p-6 lg:p-8'>
         <h3 className='text-white text-2xl sm:text-3xl leading-tight mb-6 flex items-center gap-2 flex-wrap'>
           Why should{' '}
-          <span className='font-serif italic underline decoration-[var(--color-orange)] underline-offset-[2px]'>
+          <span className='font-serif italic underline decoration-orange-500 underline-offset-[2px] self-center'>
             you
           </span>{' '}
           sponsor{' '}
@@ -19,9 +19,9 @@ export default function WhySponsor() {
             alt='HackEurope'
             width={150}
             height={40}
-            className='h-6 sm:h-7 lg:h-8 w-auto inline-block'
+            className='h-6 sm:h-7 lg:h-8 w-auto inline-block self-center'
           />
-          ?
+          <span className='self-center'>?</span>
         </h3>
 
         <div className='space-y-6 text-white/90 text-sm sm:text-base'>
