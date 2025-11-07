@@ -5,10 +5,10 @@ export default function InterestedSponsor() {
     <div className='flex flex-col items-center justify-center h-full'>
       <div className='relative w-full max-w-md mx-auto'>
         {/* Offset outline bottom-right with no fill */}
-        <div className='pointer-events-none absolute inset-0 translate-x-5 translate-y-5 border-4 border-white z-0'></div>
+        <div className='pointer-events-none absolute inset-0 translate-x-2 translate-y-2 sm:translate-x-5 sm:translate-y-5 border-4 border-white z-0'></div>
 
         {/* Main black box with its own outline */}
-        <div className='relative z-10 bg-[var(--color-black)] border-4 border-white px-4 py-4 sm:px-6 sm:py-5'>
+        <div className='relative z-10 bg-[var(--color-black)] border-4 border-white px-3 py-3 sm:px-6 sm:py-5'>
           <p className='text-white/90 font-serif italic mb-3 text-base sm:text-lg lg:text-[clamp(16px,1.5vw,18.7px)]'>Interested in becoming a sponsor?</p>
           <StarBorder
             as="a"
