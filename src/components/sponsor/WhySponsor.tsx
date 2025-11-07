@@ -4,10 +4,10 @@ export default function WhySponsor() {
   return (
     <div className='relative'>
       {/* Offset outline bottom-right with no fill */}
-      <div className='pointer-events-none absolute inset-0 translate-x-3 translate-y-3 border-2 border-white z-0'></div>
+      <div className='pointer-events-none absolute inset-0 translate-x-5 translate-y-5 border-4 border-white z-0'></div>
 
       {/* Main black box with its own outline */}
-      <div className='relative z-10 bg-[var(--color-black)] border-2 border-white p-6 sm:p-8'>
+      <div className='relative z-10 bg-[var(--color-black)] border-4 border-white p-6 sm:p-8'>
         <h3 className='text-white text-2xl sm:text-3xl leading-tight mb-6 flex items-center gap-2 flex-wrap'>
           Why should <span className='font-serif italic underline decoration-orange-500 underline-offset-[2px]'>you</span> sponsor{' '}
           <Image
