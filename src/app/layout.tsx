@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { fontVariables } from './fonts';
+import { fontVariables } from './fonts'
 import './globals.css'
 
 export const metadata: Metadata = {
   title: 'HackEurope',
-  description: 'Join 1,000 of Europe\'s brightest student builders for a weekend of innovation. February 21-22, 2026.',
+  description: "Join 1,000 of Europe's brightest student builders for a weekend of innovation. February 21-22, 2026.",
   icons: {
     icon: [
       { url: '/icon.svg', sizes: '16x16', type: 'image/svg+xml' },
@@ -13,12 +13,10 @@ export const metadata: Metadata = {
       { url: '/icon.svg', sizes: '64x64', type: 'image/svg+xml' },
       { url: '/icon.svg', sizes: '128x128', type: 'image/svg+xml' },
       { url: '/icon.svg', sizes: '256x256', type: 'image/svg+xml' },
-      { url: '/icon.svg', sizes: '512x512', type: 'image/svg+xml' },
+      { url: '/icon.svg', sizes: '512x512', type: 'image/svg+xml' }
     ],
-    apple: [
-      { url: '/icon.svg', sizes: '180x180', type: 'image/svg+xml' },
-    ],
-  },
+    apple: [{ url: '/icon.svg', sizes: '180x180', type: 'image/svg+xml' }]
+  }
 }
 
 export default function RootLayout({
