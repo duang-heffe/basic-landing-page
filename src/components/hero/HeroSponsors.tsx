@@ -54,7 +54,14 @@ export default function HeroSponsors() {
             priority
           />
         </Link>
-        <Link href='https://www.projecteurope.co/' target='_blank' rel='noopener noreferrer' className='opacity-80 hover:opacity-100 transition-opacity'>
+      </div>
+      <div className='flex w-full items-center justify-center sm:justify-start gap-6 pt-4'>
+        <Link
+          href='https://www.projecteurope.co/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='opacity-80 hover:opacity-100 transition-opacity'
+        >
           <Image
             src='/project_europe_logo.png'
             alt='Project Europe'
@@ -62,7 +69,7 @@ export default function HeroSponsors() {
             height={24}
             className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
-        </Link>        
+        </Link>
         <div className='opacity-80 hover:opacity-100 transition-opacity'>
           <Image
             src='/wellspin_logo.svg'
@@ -71,7 +78,7 @@ export default function HeroSponsors() {
             height={24}
             className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
-        </div>        
+        </div>
       </div>
     </div>
   )

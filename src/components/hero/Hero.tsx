@@ -36,7 +36,7 @@ export default function Hero() {
 
           {/* Text Section */}
 
-          <div className='flex flex-col space-y-6 sm:space-y-8 lg:space-y-[clamp(32px,4vh,40px)] text-center sm:text-left'>
+          <div className='flex flex-col space-y-6 sm:space-y-8 lg:space-y-[clamp(32px,4vh,40px)] text-center sm:text-left lg:max-w-[48rem] lg:ml-[6rem]'>
 
             <HeroTitle />
 
