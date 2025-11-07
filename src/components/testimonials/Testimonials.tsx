@@ -9,7 +9,7 @@ export default function Testimonials() {
         <h2 className='text-white text-4xl font-serif italic mb-6'>Testimonials</h2>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12'>
           <Cian />
-          <Dez />          
+          <Dez />
           <Julie />
         </div>
       </div>
