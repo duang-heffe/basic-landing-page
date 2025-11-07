@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function WhySponsor() {
   return (
     <div className='relative'>
@@ -6,8 +8,16 @@ export default function WhySponsor() {
 
       {/* Main black box with its own outline */}
       <div className='relative z-10 bg-[var(--color-black)] border-2 border-white p-6 sm:p-8'>
-        <h3 className='text-white text-2xl sm:text-3xl leading-tight mb-6'>
-          Why should <span className='font-serif italic underline decoration-orange-500 underline-offset-[6px]'>you</span> sponsor HackEurope?
+        <h3 className='text-white text-2xl sm:text-3xl leading-tight mb-6 flex items-center gap-2 flex-wrap'>
+          Why should <span className='font-serif italic underline decoration-orange-500 underline-offset-[2px]'>you</span> sponsor{' '}
+          <Image
+            src='/hackeurope_logo.svg'
+            alt='HackEurope'
+            width={150}
+            height={40}
+            className='h-6 sm:h-7 lg:h-8 w-auto inline-block'
+          />
+          ?
         </h3>
 
         <div className='space-y-6 text-white/90 text-sm sm:text-base'>
