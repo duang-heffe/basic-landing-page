@@ -16,13 +16,7 @@ export default function TrackRecord() {
         <div className='text-white text-4xl font-serif italic mb-16'>Our Track Record</div>
         <div className='relative'>
           <div className='absolute -top-10 z-20'>
-            <ClickSpark
-              sparkColor='#F07A04'
-              sparkSize={15}
-              sparkRadius={20}
-              sparkCount={8}
-              duration={500}
-            >
+            <ClickSpark sparkColor='#F07A04' sparkSize={15} sparkRadius={20} sparkCount={8} duration={500}>
               <Tabs activeTab={activeTab} onTabChange={setActiveTab} />
             </ClickSpark>
           </div>
