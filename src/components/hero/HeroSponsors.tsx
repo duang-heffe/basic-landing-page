@@ -83,7 +83,12 @@ export default function HeroSponsors() {
             className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
         </Link>
-        <div className='opacity-80 hover:opacity-100 transition-opacity'>
+        <Link
+          href='https://wellspin.design/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='opacity-80 hover:opacity-100 transition-opacity'
+        >
           <Image
             src='/wellspin_logo.svg'
             alt='Wellspin'
@@ -91,7 +96,7 @@ export default function HeroSponsors() {
             height={24}
             className='h-5 sm:h-6 lg:h-[clamp(20px,2vw,28px)] w-auto'
           />
-        </div>
+        </Link>
       </div>
     </div>
   )
