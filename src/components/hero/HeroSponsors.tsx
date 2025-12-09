@@ -37,12 +37,12 @@ export default function HeroSponsors() {
           />
         </Link>
         <Link
-          href='https://lovable.dev/'
+          href='https://zed.dev/'
           target='_blank'
           rel='noopener noreferrer'
           className='opacity-80 hover:opacity-100 transition-opacity'
         >
-          <Image src='/lovable_logo.svg' alt='Lovable' width={80} height={24} className='h-5 sm:h-6 w-auto' />
+          <Image src='/zed.svg' alt='Zed' width={80} height={24} className='h-5 sm:h-6 w-auto' />
         </Link>
         <Link
           href='https://www.intercom.com/'
